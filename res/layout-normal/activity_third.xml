@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.residentevil4ganadossoundboard.ThirdActivity"
+    android:background="@drawable/female" >
+
+    <Button
+        android:id="@+id/third_button14"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/imbecil" />
+
+    <Button
+        android:id="@+id/third_button15"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignLeft="@+id/third_button14"
+        android:layout_below="@+id/third_button14"
+        android:layout_marginTop="16dp"
+        android:text="@string/imbecil2" />
+
+    <Button
+        android:id="@+id/third_button16"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignRight="@+id/third_button15"
+        android:layout_below="@+id/third_button15"
+        android:layout_marginTop="16dp"
+        android:text="@string/imbecil3" />
+
+    <Button
+        android:id="@+id/third_button17"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignRight="@+id/third_button16"
+        android:layout_below="@+id/third_button16"
+        android:layout_marginTop="20dp"
+        android:text="@string/imbecil4" />
+
+    <Button
+        android:id="@+id/third_button18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignRight="@+id/third_button17"
+        android:layout_below="@+id/third_button17"
+        android:layout_marginTop="22dp"
+        android:text="@string/imbecil5" />
+
+    <Button
+        android:id="@+id/third_button19"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignLeft="@+id/third_button18"
+        android:layout_below="@+id/third_button18"
+        android:layout_marginTop="22dp"
+        android:text="@string/intruso" />
+
+    <Button
+        android:id="@+id/third_button20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_button15"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp"
+        android:text="@string/islavivo" />
+
+    <Button
+        android:id="@+id/third_button21"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_button16"
+        android:layout_alignLeft="@+id/third_button20"
+        android:text="@string/lord" />
+
+    <Button
+        android:id="@+id/third_button22"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_button17"
+        android:layout_alignLeft="@+id/third_button21"
+        android:text="@string/lord2" />
+
+    <Button
+        android:id="@+id/third_button23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_button18"
+        android:layout_alignLeft="@+id/third_button22"
+        android:text="@string/malditasea" />
+
+    <Button
+        android:id="@+id/third_button24"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_button19"
+        android:layout_alignLeft="@+id/third_button23"
+        android:text="@string/matalo" />
+
+    <Button
+        android:id="@+id/third_button25"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_alignBaseline="@+id/third_button19"
+        android:layout_alignBottom="@+id/third_button19"
+        android:layout_alignLeft="@+id/third_button24"
+        android:text="@string/matalo2" />
+
+    <Button
+        android:id="@+id/third_next2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ccFF0000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_textView2"
+        android:layout_alignLeft="@+id/third_button25"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/third_back2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#ccFF0000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" 
+        android:layout_above="@+id/third_textView2"
+        android:layout_alignLeft="@+id/third_button19"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/third_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/third_next2"
+        android:text="@string/three" />
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.residentevil4ganadossoundboard.FifthActivity"
+    android:background="@drawable/cultlead" >
+
+    <Button
+        android:id="@+id/fourth5_button14"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/rezar3" />
+
+    <Button
+        android:id="@+id/fourth5_button15"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignLeft="@+id/fourth5_button14"
+        android:layout_below="@+id/fourth5_button14"
+        android:layout_marginTop="16dp"
+        android:text="@string/romperapedazos" />
+
+    <Button
+        android:id="@+id/fourth5_button16"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignRight="@+id/fourth5_button15"
+        android:layout_below="@+id/fourth5_button15"
+        android:layout_marginTop="16dp"
+        android:text="@string/socerdo" />
+
+    <Button
+        android:id="@+id/fourth5_button17"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignRight="@+id/fourth5_button16"
+        android:layout_below="@+id/fourth5_button16"
+        android:layout_marginTop="20dp"
+        android:text="@string/tecogi" />
+
+    <Button
+        android:id="@+id/fourth5_button18"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignRight="@+id/fourth5_button17"
+        android:layout_below="@+id/fourth5_button17"
+        android:layout_marginTop="22dp"
+        android:text="@string/tecogi2" />
+
+    <Button
+        android:id="@+id/fourth5_button19"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_alignLeft="@+id/fourth5_button18"
+        android:layout_below="@+id/fourth5_button18"
+        android:layout_marginTop="22dp"
+        android:text="@string/tevoyamatar" />
+
+    <Button
+        android:id="@+id/fourth5_button20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_above="@+id/fourth5_button15"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp"
+        android:text="@string/tevoyamatar2" />
+
+    <Button
+        android:id="@+id/fourth5_button21"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_above="@+id/fourth5_button16"
+        android:layout_alignLeft="@+id/fourth5_button20"
+        android:text="@string/tevoyamatar3" />
+
+    <Button
+        android:id="@+id/fourth5_button22"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_above="@+id/fourth5_button17"
+        android:layout_alignLeft="@+id/fourth5_button21"
+        android:text="@string/tevoyamatar4" />
+
+    <Button
+        android:id="@+id/fourth5_button23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#cc000000"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_above="@+id/fourth5_button18"
+        android:layout_alignLeft="@+id/fourth5_button22"
+        android:text="@string/tevoyamatar5" />
+
+        <TextView
+            android:id="@+id/fourth5_textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/fourth5_back2"
+            android:layout_marginBottom="9dp"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/fourth5_back2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/fourth5_textView2"
+            android:layout_alignLeft="@+id/fourth5_button23"
+            android:layout_marginLeft="16dp"
+            android:background="#ccff0000"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+</RelativeLayout>
